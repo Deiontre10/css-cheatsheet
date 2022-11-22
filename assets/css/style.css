@@ -36,6 +36,7 @@
     padding: 8px;
     margin: 32px 16px;
     transition: box-shadow 500ms ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   article h2 {
@@ -58,7 +59,8 @@
   
   article code,
   article pre {
-    background: var(--background)
+    background: var(--background);
+    user-select: all;
   }
   
   article pre {
@@ -78,7 +80,7 @@
   }
   
   code {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Console', Lucida, monospace;
   }
   
   @media screen and (max-width: 1160px) {
